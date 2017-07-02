@@ -20,6 +20,7 @@ public class {{ api_name }} {
 	
 	public virtual class {{ base_name }}Wrapper {
         {% for field in fields %}
+        // Hello
         // {{ field.name }} = ''; 
         {% endfor %}
 	}
