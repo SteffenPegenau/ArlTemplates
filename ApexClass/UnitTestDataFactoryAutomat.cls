@@ -18,7 +18,7 @@
 public class {{ api_name }} {
 	
 	
-	public abstract class {{ base_name }}Wrapper {
+	public virtual class {{ base_name }}Wrapper {
 
 	}
 
