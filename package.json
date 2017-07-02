@@ -570,6 +570,13 @@
 			]
 		},
 		{
+			"name" : "Unit Test Data Factory Automat",
+			"file_name" : "UnitTestDataFactoryAutomat.cls",
+			"description" : "A data factory class for unit tests",
+			"author" : "Arlanis Reply AG",
+			"params" : []
+		},
+		{
 			"name" : "Web Service REST Callout",
 			"file_name" : "WebserviceOutRest.cls",
 			"description" : "A class for implementing a REST web service",
