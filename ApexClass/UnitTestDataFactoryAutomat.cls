@@ -25,6 +25,8 @@ public class {{ api_name }} {
 
 	{% for subclass in subclasses %}
 	public virtual class {{ subclass.name }}{{ base_name }}Wrapper extends {{ base_name }}Wrapper {
+        {% for field in fields %}
+        // {{ field.name }} = ''; // label: {{field.label}}, type: {{field.type}} {% if field.referenceTo[0] %}, referenceTo: {{field.referenceTo[0]}} {% endif %}{% endfor %}
 	}
 	{% endfor %}
 	
