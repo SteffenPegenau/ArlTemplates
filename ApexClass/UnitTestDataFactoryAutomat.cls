@@ -20,7 +20,7 @@ public class {{ api_name }} {
 	
 	public virtual class {{ base_name }}Wrapper {
         {% for field in fields %}
-        // {{ field.name }} = ''; // label: {{field.label}}, type: {{field.type}} {% if field.type 'reference' %}, referenceTo: {{field.referenceTo[0]}} {% endif %}{% endfor %}
+        // {{ field.name }} = ''; // label: {{field.label}}, type: {{field.type}} 
 	}
 
 	{% for subclass in subclasses %}
