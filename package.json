@@ -574,7 +574,28 @@
 			"file_name" : "UnitTestDataFactoryAutomat.cls",
 			"description" : "A data factory class for unit tests",
 			"author" : "Arlanis Reply AG",
-			"params" : []
+			"params" : [
+				{
+					"name" : "api_name",
+					"description" : "Class API Name",
+					"default" : "ArlClsUnitTestDataFactory"
+				},
+				{
+					"name" : "base_name",
+					"description" : "Class Base Name",
+					"default" : "UnitTestDataFactory"
+				},
+				{
+					"name" : "creating_user",
+					"description" : "User Initials",
+					"default" : "xxx"
+				},
+				{
+					"name" : "release_date",
+					"description" : "Release Date",
+					"default" : "yyyy-mm-dd"
+				}
+			]
 		},
 		{
 			"name" : "Web Service REST Callout",
